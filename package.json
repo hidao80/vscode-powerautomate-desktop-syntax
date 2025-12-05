@@ -1,0 +1,40 @@
+{
+    "name": "powerautomate-desktop-syntax",
+    "displayName": "Power Automate Desktop",
+    "description": "Syntax highlighting for Power Automate Desktop blocks.",
+    "version": "0.0.3",
+    "publisher": "hidao80",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hidao80/vscode-powerautomate-desktop-syntax"
+    },
+    "icon": "./icon512.png",
+    "engines": {
+        "vscode": ">=1.50.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "powerautomate",
+                "aliases": [
+                    "PowerAutomateDesktop",
+                    "Power Automate Desktop"
+                ],
+                "extensions": [
+                    ".powerautomate"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "powerautomate",
+                "scopeName": "source.powerautomate",
+                "path": "./powerautomate.tmLanguage.json"
+            }
+        ]
+    }
+}

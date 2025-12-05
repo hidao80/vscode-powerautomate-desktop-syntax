@@ -1,0 +1,59 @@
+{
+    "name": "PowerAutomateDesktop",
+    "scopeName": "source.powerautomate",
+    "fileTypes": [
+        "powerautomate"
+    ],
+    "patterns": [
+        {
+            "name": "entity.name.function.powerautomate",
+            "match": "^[A-Za-z0-9\\.]+"
+        },
+        {
+            "name": "keyword.control.powerautomate",
+            "match": "\\b(LOOP|IF|THEN|END|EXIT|WAIT)\\b"
+        },
+        {
+            "name": "variable.parameter.powerautomate",
+            "match": "\\b[A-Za-z0-9]+:"
+        },
+        {
+            "name": "string.quoted.triple.powerautomate",
+            "match": "\\$'''[^']*'''"
+        },
+        {
+            "name": "string.quoted.single.powerautomate",
+            "match": "'[^']*'"
+        },
+        {
+            "name": "string.quoted.double.powerautomate",
+            "match": "\"[^\"]*\""
+        },
+        {
+            "name": "constant.numeric.powerautomate",
+            "match": "\\b\\d+(\\.\\d+)?\\b"
+        },
+        {
+            "name": "constant.language.boolean.powerautomate",
+            "match": "\\b(True|False)\\b"
+        },
+        {
+            "name": "keyword.operator.assignment.powerautomate",
+            "match": "=>"
+        },
+        {
+            "name": "comment.line.number-sign.powerautomate",
+            "match": "#.*$"
+        },
+        {
+            "name": "meta.block.json.powerautomate",
+            "begin": "{",
+            "end": "}",
+            "patterns": [
+                {
+                    "include": "source.json"
+                }
+            ]
+        }
+    ]
+}
