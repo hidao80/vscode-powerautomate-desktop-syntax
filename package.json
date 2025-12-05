@@ -1,8 +1,8 @@
 {
     "name": "powerautomate-desktop-syntax",
-    "displayName": "Power Automate Desktop",
+    "displayName": "Syntax highlighting for Power Automate Desktop",
     "description": "Syntax highlighting for Power Automate Desktop blocks.",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "publisher": "hidao80",
     "repository": {
         "type": "git",
