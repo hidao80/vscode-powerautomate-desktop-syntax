@@ -1,5 +1,7 @@
 # Power Automate Desktop Syntax Highlighting
 
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/hidao80/vscode-powerautomate-desktop-syntax)
+
 This Visual Studio Code extension provides syntax highlighting for [Power Automate Desktop](https://flow.microsoft.com/) blocks.
 
 ## Features
